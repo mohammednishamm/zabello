@@ -1,0 +1,152 @@
+.num1{
+    height: 70px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 0px 8px grey;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    /* margin-bottom: 500px; */
+    /* bottom: 00px; */
+}
+.num11{
+    width: 50%;
+    /* background-color: rgb(233, 230, 230); */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.img1{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+.num12{
+    width: 300px;
+    /* background-color: rgb(196, 55, 55); */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 50px;
+}
+.home{
+    font-size: 14px;
+    cursor: pointer;
+}
+.zaballo{
+    font-size: 35px;
+    font-weight: 500;
+    color: #3E4772;
+}
+.za{
+    color: red;    
+}
+.home1{
+    height: 270px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    /* margin-top: 15px; */
+   
+    position: absolute;
+    display: none;
+}
+.home11:hover .home1{
+    display: block;
+    
+    z-index: 2;
+}
+.home11{
+    position: relative;
+    display: inline-block;
+}
+.home2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 250px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.home18{
+    height: 130px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    /* margin-top: 15px; */
+   
+    position: absolute;
+    display: none;
+}
+.home28{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 130px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.home11:hover .home18{
+    display: block;
+    
+    z-index: 2;
+}
+/* .kil{
+    display: none;
+    position: absolute;
+    top: 40px;
+    width: 300px;
+    height: 50px;
+    background-color: aqua;
+} */
+/* .ki{
+    position: relative;
+    display: inline-block;
+}
+.ki:active .kil{
+    display: block;
+} */
+.likey{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    z-index: 5;
+    /* margin-top: 100px; */
+    margin-left: 1200px;
+    margin-top: -10px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    position: fixed;
+    border: 1px solid rgb(189, 183, 183);
+}
+.kill{
+   width: 250px;
+   height: 30px; 
+   border-radius: 20px;
+   border: 1px solid rgb(208, 206, 206);
+   /* padding: 30px; */
+   padding-left: 20px;
+   
+}
+.kill::placeholder {
+    /* margin-left: 200px;\
+     */
+     /* color: #3E4772; */
+     /* padding-left: 10px; */
+}
+.kill:focus{
+    border-color: 1px solid grey;
+}
+
+.jiji{
+    text-decoration: none;
+    color: black;
+}
+.jiji:hover{
+    color: black;
+}

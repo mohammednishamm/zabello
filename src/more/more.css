@@ -1,0 +1,104 @@
+.mia{
+    height: 1000px;
+    width: 70%;
+    /* background-color: aqua; */
+    margin-top: 73px;
+    margin: auto;
+    margin-top: 73px;
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 200px; */
+    padding-top: 100px;
+}
+.mia1{
+    width: 47.5%;
+    height: 800px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+}
+.mia2{
+    width: 54%;
+    height: 500px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mai11{
+    display: flex;
+    width: 500px;
+    height: 130px;
+    /* background-color: violet; */
+    gap: 15px;
+    align-items: center;
+
+}
+.miai{
+    height: 500px;
+    width: 480px;
+}
+.miaimg{
+    width: 100px;
+    height: 100px;
+}
+.selectedproduct{
+    font-size: 20px;
+}
+.stock{
+ font-size: 18px;
+ font-weight: 650;
+ color: #44BB9E;
+}
+.stock1{
+    font-size: 17px;
+    font-weight: 500;
+}
+.stock2{
+    font-size: 17px;
+    font-weight: 600;
+}
+.stock3{
+    width: 70%;
+    font-size: 17px;
+    color: grey;
+    font-weight: lighter;
+}
+.stock5{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stock51{
+    display: flex;
+    gap: 5px;
+}
+.stock6{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stock7{
+    width: 380px;
+    height: 39px;
+    border-radius: 5px;
+    border: none;
+    background-color: #44BB9E;
+    color: white;
+}
+.stockda{
+    font-size: 17px;
+}
+.chai{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
